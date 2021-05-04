@@ -13,6 +13,7 @@ namespace TestCICD
     {
         public static void Main(string[] args)
         {
+            //xD
             CreateHostBuilder(args).Build().Run();
         }
 
