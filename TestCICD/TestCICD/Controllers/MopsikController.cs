@@ -36,7 +36,7 @@ namespace TestCICD.Controllers
         [Route("jebacpis")]
         public IActionResult JebacPis()
         {
-            return Ok("***** ***");
+            return Ok("iks de");
         }
     }
 }
