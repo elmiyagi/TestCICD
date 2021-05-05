@@ -14,6 +14,7 @@ namespace TestCICD
         public static void Main(string[] args)
         {
             //xD
+            //drugi koment
             CreateHostBuilder(args).Build().Run();
         }
 
