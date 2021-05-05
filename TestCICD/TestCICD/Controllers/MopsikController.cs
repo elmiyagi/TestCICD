@@ -38,5 +38,13 @@ namespace TestCICD.Controllers
         {
             return Ok("iks de");
         }
+
+        [HttpGet]
+        [Route("golfik")]
+        public IActionResult Golfik()
+        {
+            return Ok("Golfiątko :D");
+        }
+
     }
 }
