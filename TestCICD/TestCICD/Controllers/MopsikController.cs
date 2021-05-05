@@ -31,5 +31,12 @@ namespace TestCICD.Controllers
         {
             return Ok("newget");
         }
+
+        [HttpGet]
+        [Route("jebacpis")]
+        public IActionResult JebacPis()
+        {
+            return Ok("***** ***");
+        }
     }
 }
