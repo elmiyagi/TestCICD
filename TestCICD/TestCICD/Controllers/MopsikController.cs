@@ -24,5 +24,12 @@ namespace TestCICD.Controllers
         {
             return Ok(tlow + klatka + waga);
         }
+
+        [HttpGet]
+        [Route("newget")]
+        public IActionResult NewGet()
+        {
+            return Ok("newget");
+        }
     }
 }
