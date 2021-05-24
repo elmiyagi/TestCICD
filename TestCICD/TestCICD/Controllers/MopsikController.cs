@@ -46,5 +46,12 @@ namespace TestCICD.Controllers
             return Ok("Golfiątko :D");
         }
 
+        [HttpGet]
+        [Route("cuper")]
+        public IActionResult Cuper()
+        {
+            return Ok("Jest cuper jest cuper więc o co Ci chodzi ?");
+        }
+
     }
 }
